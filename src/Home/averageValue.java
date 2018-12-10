@@ -9,6 +9,7 @@ public class averageValue {
         int b = Integer.parseInt(args[1]);
         int c = Integer.parseInt(args[2]);
         double x = (a+b+c)/args.length;
+        //hgdfg
         System.out.println(x);
 
     }
