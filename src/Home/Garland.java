@@ -1,7 +1,8 @@
-package Home;
+package home;
 
-import com.sun.org.apache.xpath.internal.SourceTree;
-
+/**
+ * Created by Student on 10.12.2018.
+ */
 public class Garland {
     public static void main(String[] args) {
         int garland = 8978;
@@ -50,5 +51,4 @@ public class Garland {
                     " бегущая строка пока не пройдет все 32 бита");
         }
     }
-
 }

@@ -1,9 +1,8 @@
-package Home;
+package home;
 
-import com.sun.org.apache.xpath.internal.SourceTree;
-
-import java.util.Scanner;
-
+/**
+ * Created by Student on 10.12.2018.
+ */
 public class averageValue {
     public static void main(String[] args) {
         int a = Integer.parseInt(args[0]);
