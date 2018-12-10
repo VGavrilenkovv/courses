@@ -10,12 +10,14 @@ public class Phone {
 
 
     Phone(int n, int m, int w) {
-        num = n;
-        model = m;
+        this(w,m);
+        /*num = n;
+        model = m;*/
         weight = w;
     }
 
     Phone(int w, int m) {
+        this();
         num = w;
         model = m;
     }
@@ -24,12 +26,15 @@ public class Phone {
 
     }
 
-    void receiveCall(String name) {
-        System.out.println("Звонит " + name);
+    void receiveCall(String name, String num) {
+        System.out.println("Звонит " + name + "  "+num);
     }
 
     public int getNumber() {
         return num;
     }
+
+
+
 }
 

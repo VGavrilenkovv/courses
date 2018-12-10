@@ -15,7 +15,7 @@ public class PhoneDemo {
         */
 
         System.out.println("модель телефона - " + phone.model + "номер телефона - " + phone.num + "размеры телефона =" + phone.weight);
-        phone.receiveCall("Mather");
+        phone.receiveCall("Mather", "8888");
         System.out.println(phone.getNumber());
         System.out.println(phone1.model + " " + phone1.weight + " " + phone1.num);
         System.out.println(phone2.model + " " + phone2.weight + " " + phone2.num);
