@@ -9,6 +9,7 @@ public class Garland {
 
         System.out.println("бинарное отображение числа без ведущих нулей = " + Integer.toBinaryString(garland));
         String s = String.format("%32s", Integer.toBinaryString(garland)).replace(' ', '0');
+
         System.out.println("бинарное отображение с ведущими нулями " + s);
 
         System.out.println("проверка кол-ва символов в бинарном отображении = " + s.length() + " символа");
