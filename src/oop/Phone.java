@@ -27,6 +27,7 @@ public class Phone {
     }
 
     void receiveCall(String name, String num) {
+
         System.out.println("Звонит " + name + "  "+num);
     }
 
