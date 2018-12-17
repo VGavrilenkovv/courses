@@ -16,6 +16,9 @@ public class Student {
         this.avgMark = avgMark;
     }
 
+    public Student() {
+    }
+
     public String getFirstName() {
         return firstName;
     }
@@ -28,7 +31,7 @@ public class Student {
         return group;
     }
 
-    public double getAvgMark() {
+    public  double getAvgMark() {
         return avgMark;
     }
 
@@ -44,8 +47,16 @@ public class Student {
 
         Student aspirant2 = new Aspirant("Aspirant", "OtStudenta", "group=5", 7, "aspirantura77");
         System.out.println(aspirant2.getFirstName() + aspirant2.getFirstName() + aspirant2.getGroup()+aspirant2.avgMark);
+
+        Student[] students = {student, aspiran1, aspirant2};
+        for (Student st:students){
+            System.out.println(st.getFirstName() + " 777  " + st.getScholarship());
+        }
     }
 
 
 
+    public  double getScholarship() {
+        return getAvgMark() == 5 ? 200 : 180;
+    }
 }
